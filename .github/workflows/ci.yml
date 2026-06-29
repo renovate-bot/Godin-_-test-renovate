@@ -74,7 +74,7 @@ jobs:
             ${{ matrix.ecj && '-Decj' || ''}} \
             --toolchains=toolchains.xml
   Windows:
-    runs-on: windows-2022
+    runs-on: windows-2025
     environment: ${{ (github.repository == 'jacoco/jacoco' && github.ref == 'refs/heads/master') && 'snapshot' || null }}
     steps:
       - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
