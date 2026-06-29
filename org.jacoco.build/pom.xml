@@ -568,7 +568,7 @@
             </includes>
             <eclipse>
               <!-- renovate depName=eclipse-formatter packageName=org.eclipse.platform:org.eclipse.platform -->
-              <version>4.30</version>
+              <version>4.40.0</version>
               <file>../org.jacoco.core/.settings/org.eclipse.jdt.core.prefs</file>
             </eclipse>
             <importOrder>
